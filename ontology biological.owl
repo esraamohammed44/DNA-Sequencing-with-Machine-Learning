@@ -1,0 +1,583 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#are_similar_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#are_similar_to">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#has_N_chrom. -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#has_N_chrom.">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_chimps"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#has_height -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#has_height">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#has_kind -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#has_kind">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_chimps"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#has_size -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#has_size">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size_chimps"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#has_weight -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#has_weight">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_chimps"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#take_up -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#take_up">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_chimps"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#number">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_chimps"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size_chimps"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_chimps"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_chimps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_chimps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size_chimps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size_chimps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#female_height -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#female_height">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#female_height_chimps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#female_height_chimps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#female_weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#female_weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#first_chimps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#first_chimps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_chimps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_chimps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_chimps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#male_height -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#male_height">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#male_height_chimps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#male_height_chimps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#male_weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#male_weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#only_kind -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#only_kind">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#second_chimps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#second_chimps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_chimps"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_chimps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_chimps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_chimps_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_chimps_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size_chimps_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size_chimps_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+        <has_N_chrom. rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_chimps_1"/>
+        <has_height rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps_1"/>
+        <has_size rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size_chimps_1"/>
+        <take_up rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps_1"/>
+        <take_up rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps_2"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meat</name>
+        <number rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">150</number>
+        <number rdf:datatype="http://www.w3.org/2001/XMLSchema#short">370</number>
+        <number rdf:datatype="http://www.w3.org/2001/XMLSchema#short">48</number>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+        <has_height rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps_2"/>
+        <take_up rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps_2"/>
+        <take_up rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps_3"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">plantes</name>
+        <number rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">150</number>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#chimpanzee"/>
+        <has_weight rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_chimps"/>
+        <take_up rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps_3"/>
+        <number rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">50</number>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#male_height_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#female_height_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#male_height_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#male_height_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_chimps_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#male_height_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+        <has_N_chrom. rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_1"/>
+        <has_size rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#brain_size_1"/>
+        <take_up rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_1"/>
+        <take_up rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_2"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mohamed</name>
+        <number rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">1350</number>
+        <number rdf:datatype="http://www.w3.org/2001/XMLSchema#short">46</number>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#human"/>
+        <has_N_chrom. rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#N_chromosomes_1"/>
+        <has_height rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_1"/>
+        <has_weight rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#height_1"/>
+        <take_up rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#food_1"/>
+        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esraa</name>
+        <number rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">163</number>
+        <number rdf:datatype="http://www.w3.org/2001/XMLSchema#short">46</number>
+        <number rdf:datatype="http://www.w3.org/2001/XMLSchema#unsignedLong">56</number>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_chimps_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_chimps_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#first_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_chimps_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#kinds_chimps_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#second_chimps"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_chimps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_chimps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/el10_gazy/ontologies/2022/11/untitled-ontology-8#weight_chimps"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
